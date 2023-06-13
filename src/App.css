@@ -1,0 +1,60 @@
+.header_container{
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    background-image:linear-gradient(to right, #672280,#A626D3);
+    color:white;
+}
+.logo_header{
+    display: flex;
+}
+
+.logo{
+    width:80px;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.header{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.project{
+    font-size: large;
+    font-weight: 500;
+    padding-top:10px;
+    padding-right: 20px;
+}
+
+.texts{
+    display: grid;
+    justify-content: center;
+}
+
+input{
+    margin: 20px;
+    padding: 6px;
+    border-radius: 7px;
+    border-color: #b4afb6;
+    box-shadow: 0 2px 4px;
+    text-align: center;
+    font-size: large;
+    overflow: hidden;
+}
+
+#meme{
+    padding: 10px;
+    margin:15px;
+    width:65vw;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px;
+    background-image:linear-gradient(to right, #672280,#A626D3);
+    color:white;
+    font-size: large;
+}
+
+.meme{
+    justify-self: center;
+}
