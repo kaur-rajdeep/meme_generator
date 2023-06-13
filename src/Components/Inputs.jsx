@@ -3,7 +3,7 @@ import React from "react";
 export default function Inputs(){
     return(
         <div className="texts">
-        <div>
+        <div className="inputs">
         <input type="text" placeholder="first text" id="first"/>
         <input type="text" placeholder="second text" id="second"/><br/>
         </div>
