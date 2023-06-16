@@ -71,3 +71,13 @@ input{
 .meme{
     justify-self: center;
 }
+
+.memeImage{
+    width:65vw;
+    height:auto;
+}
+
+#Image{
+    display:flex;
+    justify-content: center;
+}

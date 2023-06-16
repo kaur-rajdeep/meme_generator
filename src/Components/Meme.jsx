@@ -1,15 +1,18 @@
 import React from "react";
 import memesData from "../memesData";
-export default function Inputs(){
 
+export default function Memes(){
+
+    const [memeImage, setMemeImage]=React.useState("")
+    
     function getMemeImage(){
         const memesArray = memesData.data.memes
         const randomNumber = Math.floor(Math.random()*memesArray.length)
-        const url = memesArray[randomNumber].url
-        console.log(url)
+        setMemeImage(memesArray[randomNumber].url)
     }
 
     return(
+        <main>
         <div className="texts">
         <div className="inputs">
         <input type="text" placeholder="first text" id="first"/>
@@ -19,5 +22,9 @@ export default function Inputs(){
         <button id="meme" onClick={getMemeImage}>Generate Meme</button>
         </div>
         </div>
+        <div id="Image">
+            <img src={memeImage} className="memeImage"/>
+        </div>
+        </main>
     )
 }
