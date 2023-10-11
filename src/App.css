@@ -1,6 +1,7 @@
 .main{
     display: grid;
     justify-items: center;
+    margin-top: 2%;
 }
 
 .header_container{
@@ -8,8 +9,8 @@
     align-content: center;
     justify-content: space-between;
     background-image:linear-gradient(to right, #672280,#A626D3);
-    color:white;
-    width:65vw;
+    color:#ffffff;
+    width:75vw;
 }
 .logo_header{
     display: flex;
@@ -41,7 +42,7 @@
 
 .inputs{
     display:flex;
-    width:65vw;
+    width:85vw;
     justify-content: center;
 }
 
@@ -60,7 +61,7 @@ input{
 #meme{
     padding: 10px;
     margin:15px;
-    width:65vw;
+    width:75vw;
     border-radius: 7px;
     box-shadow: 0 2px 4px;
     background-image:linear-gradient(to right, #672280,#A626D3);
@@ -73,7 +74,7 @@ input{
 }
 
 .memeImage{
-    width:65vw;
+    width:75vw;
     height:auto;
 }
 
